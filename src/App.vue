@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="https://edg-ceron.github.io/platzimusic-vue.js/dist/logo.png">
+    <img src="dist/logo.png">
     <h1>Platimusic</h1>
     <select v-model="selectedCountry">
       <option v-for="country in countries" v-bind:value="country.value">{{country.name}}</option>
