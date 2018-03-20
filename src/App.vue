@@ -78,12 +78,16 @@ ul {
   list-style-type: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
   background: #8080801a;
 }
 
 li {
-  display: inline-block;
-  margin: 0 10px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 1 calc(18% - 1em);
 }
 
 a {
